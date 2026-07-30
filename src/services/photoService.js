@@ -1,4 +1,4 @@
-const API_URL = "https://backend-496213677973.europe-west9.run.app";
+const API_URL = process.env.NEXT_PUBLIC_API_URL;
 export async function getPhotos() {
   const response = await fetch(`${API_URL}/photos`);
 
