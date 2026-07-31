@@ -90,7 +90,6 @@ export default function Home() {
             sm:text-lg
           "
         >
-          Bienvenue sur notre espace de mariage.
           <br />
           Partagez avec nous vos plus beaux souvenirs de cette journée.
         </p>
